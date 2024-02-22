@@ -1,0 +1,186 @@
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #97b7d6, #c9def1);
+}
+.parent {
+  width: 70%;
+  /* background: linear-gradient(45deg, #1d4b77, #285b8a); */
+  background: linear-gradient(45deg, #7695b4, #aac6df);
+  border: 1px solid #2c565e38;
+
+  height: 520px;
+  margin-top: 4.5rem;
+  border-radius: 25px;
+  box-shadow: 1px 1px 20px 5px #949fbee0;
+
+  padding: 1.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent .anime {
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  flex: 1;
+}
+.loginp {
+  padding: 0rem 1rem;
+  background: #4c80a048;
+  flex: 1;
+  border: 1px solid #2c565e4b;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px 3px #3f80ca83;
+  /* width: 50%; */
+  color: #000;
+  justify-content: center;
+}
+
+.parent .loginp .modal-title {
+  font-size: 1.5rem;
+}
+.sub {
+  background: #2e4f96;
+  border: 1px solid #395837b0;
+  color: aliceblue;
+  margin-bottom: 0.5rem;
+}
+.sub:hover {
+  background: #2e4f96d0;
+  border: 1px solid #395837b0;
+}
+
+.regist {
+  color: rgb(150, 33, 33);
+  text-decoration: underline;
+}
+.goo {
+  background: #2c565e;
+  border: 1px solid #3a4d39b0;
+}
+.goo:hover {
+  background: #436b74;
+  border: 1px solid #3a4d39b0;
+}
+/* sign up */
+
+.contain .register {
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  background-color: rgba(40, 40, 48, 0.623);
+  border: none;
+  backdrop-filter: blur(5px);
+}
+@keyframes mymove {
+  0% {
+    scale: 0;
+  }
+  75% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.contain .register .contains {
+  animation: mymove 0.5s 1;
+  width: 40%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5.5rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  /* background-color: #242425; */
+  background: #afb1bd;
+
+  text-align: center;
+}
+.contain .register .contains .closee {
+  border: none !important;
+  color: #0a0a0a;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.contain .register .contains .closee:hover {
+  font-size: 1.4rem;
+  color: rgba(220, 20, 60, 0.822);
+  rotate: 180deg;
+  transition: 0.3s;
+}
+
+.contain .register .contains h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.contain .register .contains .name,
+.contain .register .contains .pass,
+.contain .register .contains .select,
+.contain .register .contains .checks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.contain .register .contains label {
+  display: flex;
+  margin-top: 10px;
+}
+
+.contain .register .contains input[type="text"],
+.contain .register .contains input[type="email"],
+.contain .register .contains input[type="password"],
+.contain .register .contains input[type="month"] {
+  width: 15rem;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contain .register .contains select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* margin-top: 5px; */
+}
+
+.contain .register .contains input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+.contain .register .contains button[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contain .register .contains button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.contain .register .contains p {
+  margin-top: 10px;
+  color: #666;
+}
+
+@media (max-width: 950px) {
+  .parent .anime {
+    display: none;
+  }
+}

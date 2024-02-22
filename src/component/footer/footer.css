@@ -1,0 +1,59 @@
+#footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 75px;
+  background-color: #ececec;
+}
+#footer .logo .active {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #1a1717d8;
+  /* box-shadow: inset 1px 1px 10px 10px #3d855593; */
+  border-radius: 25px;
+  width: 15rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: -1rem;
+}
+
+#footer .logo .fa-brands {
+  background: linear-gradient(90deg, #088178, #16574e);
+  color: transparent;
+  background-clip: text;
+}
+#footer .logo .market {
+  background: linear-gradient(90deg, #088178, #33538ffa, #16574e);
+  /* background: linear-gradient(90deg, #0ef193, #9cf726, #e99f30); */
+  color: transparent;
+  background-clip: text;
+  font-weight: 500;
+}
+#footer div {
+}
+#footer .socials {
+  display: flex;
+  width: 9rem;
+  justify-content: space-around;
+}
+#footer p,
+#footer a {
+  color: rgb(109, 109, 109);
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #088178;
+}
+#footer .about a {
+  display: block;
+  padding: 8px 0;
+}
+#footer .myaccount a {
+  display: block;
+  padding: 8px 0;
+}
+#footer .download img {
+  border: 1px solid #08817969;
+  margin: 0.5rem;
+  border-radius: 7px;
+}

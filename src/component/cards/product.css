@@ -1,0 +1,118 @@
+.card {
+  width: 17rem;
+  height: 21rem;
+  background: #fffffffd;
+  border: 1px solid #ebebeb;
+  border-radius: 25px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  transition: box-shadow 0.2s;
+  gap: 0.6rem;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+}
+
+.card:hover {
+  background: #fdfffe98;
+  box-shadow: 1px 1px 20px rgba(107, 105, 105, 0.459);
+  cursor: pointer;
+
+  /* scale: 1.05; */
+  transition: 0.4s;
+  .cover {
+    transition: 0.3s;
+  }
+  .title {
+    scale: 1.05;
+    transition: 0.3s;
+  }
+  .add-cart {
+    scale: 1.05;
+    transition: 0.3s;
+  }
+}
+
+.card .content .cover {
+  width: 13rem;
+  height: 12.5rem;
+  border-radius: 7px;
+}
+.card .content {
+  display: grid;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.card .title {
+  align-self: center;
+  font-size: 1.4rem;
+  color: #242425;
+}
+.card .sub-title {
+  font-size: 1rem;
+  color: #0c837a;
+}
+
+.card .add-cart {
+  height: 2rem;
+  background: #0c837a;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  color: antiquewhite;
+  margin-top: -1rem;
+}
+.card .add-cart:hover {
+  background: #0c8379de;
+  transition: 0.3s;
+  color: aliceblue;
+  text-shadow: 0 0 6px rgba(207, 142, 12, 0.781);
+  scale: 1.1;
+}
+
+#off-banner {
+  background-image: url(/public/images/b2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#off-banner h4 {
+  color: #eaebf0;
+  font-size: 20px;
+}
+#off-banner h2 {
+  font-size: 46px;
+  color: #eaebf0;
+  padding: 20px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.normal:hover {
+  background-color: #088178;
+  color: #fff;
+}
+
+.photo-detail .photos {
+  filter: drop-shadow(10px 7px 10px rgba(168, 166, 163, 0.664));
+  border-radius: 25px;
+}

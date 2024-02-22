@@ -1,0 +1,33 @@
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  margin-top: 4rem;
+}
+.top .sign {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-top: 0.6rem;
+  height: 520px;
+  flex-wrap: wrap;
+}
+.top .sign .registers {
+  /* margin: 2rem; */
+  padding: 1rem 1rem;
+  width: 45%;
+  background: linear-gradient(
+    rgb(226, 225, 224),
+    #e2dcdc,
+    rgba(223, 219, 221, 0.966)
+  );
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px 5px #d1cece;
+}
+
+.top .registers .modal-title {
+  font-size: 1.6rem;
+}
